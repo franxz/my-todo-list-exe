@@ -14,8 +14,8 @@ class TodoItem extends Component {
     }
 
     return (
-      <div className='todoItem' style={id % 2 !== 1 ? oddStyle : null}>
-        <input type='checkbox' id={id} checked={checked} onChange={() => this.props.handleChange(id)} />
+      <div className='todoItem' style={this.props.order % 2 !== 1 ? oddStyle : null} onDoubleClick={() => this.props.removeItem(id)}>
+        <input className='todoItemCheckbox' type='checkbox' id={id} checked={checked} onChange={() => this.props.handleChange(id)} />
         <label htmlFor={id} style={checked ? checkedStyle : null}>{text}</label>
       </div>
     )
