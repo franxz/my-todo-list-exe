@@ -20,6 +20,9 @@ body {
 
 
 .topbar {
+  display: flex;
+  align-items: center;
+
   background-color: #000080;
   padding: 6px 0 4px 8px;
 
@@ -28,7 +31,7 @@ body {
 
 h1 {
   font: 1.5em 'VT323', monospace;
-  margin: 0;
+  margin: 0 8px;
   color: white;
 }
 
@@ -50,18 +53,12 @@ label {
   font: 1.2em 'VT323', monospace;
 }
 
-.todoItemCheckbox {
-  background: #555;
-  border-radius: 0px;
-}
-
-
 .newItemInput {
   background-color: rgba(0, 0, 0, 0);
   border: none;
 
-  width: 100%;
-  margin: 0; margin-left: 30px;
+  width: 460px;
+  margin: 0; margin-left: 6px;
   padding: 0;
   font: 1.2em 'VT323', monospace;
 
@@ -78,7 +75,7 @@ label {
 }
 
 
-/* transiciones */
+/* transiciones para agregar/borrar item */
 .items-enter {
   max-height: 0px;
   padding: 0;

@@ -1,16 +1,19 @@
 # MyTodoApp.exe
-Simple React.js app made while learning.
+Simple TodoApp made while learning React.js.
 
 ## See it in action
 [Click here!](https://github.com/franxz/my-todo-list-exe)
 
 ## Features
-- [X] Add new item (press Enter key)
-- [X] Mark item as completed or incompleted
-- [X] Delete an item (double click it)
-- [X] Transitions! (with [react-transition-group](https://github.com/reactjs/react-transition-group/tree/v1-stable))
+- [X] Add new task (write it down and press 'Enter' key)
+- [X] Delete task
+- [X] Mark task as finished
+- [ ] Save your tasks in the cloud!
 
 ## TODO
-- Replace onDoubleClick event with a button
-- Add a button to create a new item 
-- Check and comment the code
+- Check styles.css and styles in components
+
+## Known bugs
+I do not intend to fix them, but to collect them 🧐 
+- If the text of an item is too long, it can overflow the window.
+- The :hover scale in the add item input can cause the text to overflow the window.
