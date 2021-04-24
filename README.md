@@ -2,7 +2,7 @@
 Simple TodoApp made while learning React.js.
 
 ## See it in action
-[Click here!](https://github.com/franxz/my-todo-list-exe)
+[Click here!](https://franxz.github.io/my-todo-list-exe)
 
 ## Features
 - [X] Add new task (write it down and press 'Enter' key)
